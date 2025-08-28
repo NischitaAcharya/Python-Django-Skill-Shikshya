@@ -73,4 +73,24 @@ else:
         print(num, "is not a prime number.")
         
         
+        
+        
+
+#WAP to find prime number from 5 to 20
+
+for num in range(5, 21):
+    is_prime = True  # Assume the number is prime
+    
+    if num < 2:
+        is_prime = False
+    else:
+        for i in range(2, int(num ** 0.5) + 1):  #[(17 ** 0.5) acn also ne written as square root of 17(squt.17)
+            if num % i == 0:            #( here i is number between 2-5=3,4 and check if 17 is divied by that if no the prime and if yes the not prime)
+                is_prime = False
+                break
+    
+    if is_prime:
+        print(num)
+
+        
 

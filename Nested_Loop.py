@@ -3,6 +3,10 @@
 # for country in ["Nepal","India","USA"]:
 #   print(country)
 
-Country_Data = [{"Country":"Nepal","States":["Bagmati","Gandaki","Koshi","Madhesh"]},{"Country":"India","States":["Bihar","Mumbhai"]},{}]
-for Country in Country_Data:
-    print(Country)
+# Country_Data = [{"Country":"Nepal","States":["Bagmati","Gandaki","Koshi","Madhesh"]},{"Country":"India","States":["Bihar","Mumbhai"]},{}]
+# for Country in Country_Data:
+#     print(Country)
+
+
+# infinite loop, with infinite person  
+# request hit (google.com)

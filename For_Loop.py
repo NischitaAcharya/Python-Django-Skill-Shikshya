@@ -3,14 +3,14 @@
     
 
 #WAP to check each item of numbers is odd or even
-# numbers = "123456789"
+numbers = "123456789"
 
-# for num in numbers:
-#     digit = int(num)
-#     if digit % 2 == 0:
-#         print(f"{digit} is even")
-#     else:
-#         print(f"{digit} is odd")
+for num in numbers:
+    digit = int(num)
+    if digit % 2 == 0:
+        print(f"{digit} is even")
+    else:
+        print(f"{digit} is odd")
         
 
 # number = "123456789"
@@ -40,3 +40,4 @@
 
 for num in range(0, 101, 2):
     print(num)
+    
