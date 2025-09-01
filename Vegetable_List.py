@@ -13,7 +13,7 @@ Vegetable_list = []
 
 while True:
     print(option)
-    user_input = input("Enter any Options (1-4):")
+    user_input = input("Enter any Options (1-7):")
     
     if user_input == "1":
         print("\nVegetable List:", Vegetable_list)
@@ -21,7 +21,7 @@ while True:
     elif user_input == "2":
         item = input("Enter vegetable to add: ")
         Vegetable_list.append(item)
-        print(f"'{item}' appended to list.")
+        print(f"'{item}' added to list.")
         
     elif user_input == "3":
         item = input("Enter vegetable to delete: ")
