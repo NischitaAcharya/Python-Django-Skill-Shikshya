@@ -1,3 +1,24 @@
+# break is used to stop the loop
+
+for i in range(10):
+    if i == 5:
+        break
+    print (i)
+    
+#continue means skip
+
+for i in range(10):
+    if i % 2 == 0:
+        continue
+    print(i)
+    
+# Pass is a null statemnet that has no effect
+
+for i in range(10):
+    pass
+
+
+
 #WAP to print square of prime number upto 200, if prime number is 13 then skip, if prime number 59 then exit the program
 # Check if num is prime using square root method
 # Stop the loop at 59

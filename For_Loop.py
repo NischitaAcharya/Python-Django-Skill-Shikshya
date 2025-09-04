@@ -13,11 +13,11 @@ for num in numbers:
         print(f"{digit} is odd")
         
 
-# number = "123456789"
-# if number % 2 == 0:
-#     print(f"{number} number is even.")
-# else:
-#     print(f"{number} number is odd.")
+number = "123456789"
+if number % 2 == 0:
+    print(f"{number} number is even.")
+else:
+    print(f"{number} number is odd.")
 
 
 #WAP to give feed to a person
@@ -25,14 +25,14 @@ for num in numbers:
 #if he eats 5 plate then "Fat"
 #if he eats greater more that 10 plate the print "Tata Bye Bye, BOOM!!"
 
-# for plate_count in range (1,40):
-#     if plate_count == 1:
-#       print("all good")
-#     elif plate_count ==5:
-#         print("Fat")
-#     elif plate_count >= 10:
-#         print("Tata Bye Bye, BOOM!!")
-#         break
+for plate_count in range (1,40):
+    if plate_count == 1:
+      print("all good")
+    elif plate_count ==5:
+        print("Fat")
+    elif plate_count >= 10:
+        print("Tata Bye Bye, BOOM!!")
+        break
 
 
 #WAP to print all even number from 0 to 100 using range step

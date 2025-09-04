@@ -60,3 +60,6 @@ print(b)
 fruits = ['apple', 'banana']
 fruits.clear()
 print(fruits) 
+
+
+
