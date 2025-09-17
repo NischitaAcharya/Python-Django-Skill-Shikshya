@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #006699;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    img {
+      max-width: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    .social-links a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #006699;
+    }
+
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    form input, form textarea {
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      padding: 10px;
+      background-color: #006699;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    form button:hover {
+      background-color: #004466;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nischita Acharya</h1>
+    <p>Learning Python Django Course</p>
+  </header>
+
+  <section>
+    <img src="2021-11-28 (4).png" alt="Nischita Acharya Photo">
+    
+    <h2>About Me</h2>
+    <p>Hello! I’m Nischita Acharya, currently learning Python and Django in Skill Shikshya. I’m passionate about backend development and excited to explore the world of web development.</p>
+
+    <h3>Social Links</h3>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/nischita-acharya-85b198314/" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/NischitaAcharya/Python-Django-Skill-Shikshya.git" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+</body>
+</html>
